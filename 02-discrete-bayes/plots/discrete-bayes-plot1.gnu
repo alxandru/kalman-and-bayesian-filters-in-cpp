@@ -20,4 +20,4 @@ set style fill solid border -1
 set boxwidth 0.9
 set xtic rotate by -45 scale 0
 #set bmargin 10 
-plot '../data/discrete-bayes1.dat' using 1:xtic(1) ti col
+plot '../data/discrete-bayes1.dat' using 2:xtic(1) lc 'black'
